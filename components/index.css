@@ -1,0 +1,221 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #222;
+}
+
+@media screen and (max-width:400px) {
+    body{
+        background-color: gray;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.letter {
+    height: 160vh;
+}
+
+
+.footer {
+
+    display: flex;
+    border: solid;
+    border-color: #333;
+    background-color: #333;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container .Curso {
+    flex-direction: column;
+}
+
+.containerWeek {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4pc;
+}
+
+.containerWeek .Curso {
+    display: flex;
+    width: 80%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 12pc;
+}
+
+.containert {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Curso {
+    height: 20pc;
+    display: flex;
+    width: 16pc;
+    text-align: center;
+    margin: 0 1pc;
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+
+}
+
+.Curso img {
+    width: 7pc;
+
+}
+
+.Curso h3 {
+    font-size: 2pc;
+}
+
+@keyframes sol {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.Curso:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    animation: sol 1s infinite alternate;
+}
+
+.containerCheck {
+    display: flex;
+    column-gap: 5px;
+}
+
+.containerDep {
+    grid-column: 2 / 4;
+}
+
+.containerDep h1 {
+    font-size: 3pc;
+}
+
+.containerDep img {
+    width: 155px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.conta{
+    display: flex;
+    gap: 1pc;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        align-items: flex-start;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu {
+        margin-top: 10px;
+    }
+
+    .menu ul {
+        display: flex;
+        column-gap: 1pc;
+    }
+
+    .menu li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerWeek a .Curso {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+}  */

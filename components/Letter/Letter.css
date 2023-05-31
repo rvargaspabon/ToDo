@@ -1,0 +1,81 @@
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.Curso{
+    background-color: #333;
+    padding: 3pc;
+    box-shadow: 0 0 6px rgb(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 30px;
+    transform: scale(1);
+    transition: transform 0.25s ease-in-out;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.Curso:hover {
+    background-color: #333;
+    transform: scale(1.05);
+    animation: sol 1s infinite alternate;
+    box-shadow: 0px 0px 20px white;
+}
+
+@keyframes sol{
+
+    0% {
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5pc 1pc;
+    padding: 3pc;
+    justify-items: center;
+    text-align: center;
+    row-gap: 4pc;
+    
+}
+
+.rotating-image{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.Curso:hover .rotating-image{
+    animation: rotate 20s ease;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
